@@ -17,16 +17,16 @@ const Header = () => {
             <Heart className="h-8 w-8 text-orange-500" />
             <div>
               <h1 className="text-2xl font-bold text-gray-900">Bakgårdskatt</h1>
-              <p className="text-sm text-gray-600">Hjälper katter hitta hem</p>
+              <p className="text-sm text-gray-600">Hjelper katter finne hjem</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#hem" className="text-gray-700 hover:text-orange-500 transition-colors">Hem</a>
-            <a href="#katter" className="text-gray-700 hover:text-orange-500 transition-colors">Våra katter</a>
-            <a href="#hjalp" className="text-gray-700 hover:text-orange-500 transition-colors">Hur du kan hjälpa</a>
-            <a href="#berattelser" className="text-gray-700 hover:text-orange-500 transition-colors">Berättelser</a>
+            <a href="#hjem" className="text-gray-700 hover:text-orange-500 transition-colors">Hjem</a>
+            <a href="#katter" className="text-gray-700 hover:text-orange-500 transition-colors">Våre katter</a>
+            <a href="#hjelp" className="text-gray-700 hover:text-orange-500 transition-colors">Hvordan du kan hjelpe</a>
+            <a href="#historier" className="text-gray-700 hover:text-orange-500 transition-colors">Historier</a>
             <a href="#kontakt" className="text-gray-700 hover:text-orange-500 transition-colors">Kontakt</a>
           </nav>
 
@@ -45,10 +45,10 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4">
-              <a href="#hem" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Hem</a>
-              <a href="#katter" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Våra katter</a>
-              <a href="#hjalp" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Hur du kan hjälpa</a>
-              <a href="#berattelser" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Berättelser</a>
+              <a href="#hjem" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Hjem</a>
+              <a href="#katter" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Våre katter</a>
+              <a href="#hjelp" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Hvordan du kan hjelpe</a>
+              <a href="#historier" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Historier</a>
               <a href="#kontakt" className="text-gray-700 hover:text-orange-500 transition-colors" onClick={toggleMenu}>Kontakt</a>
             </div>
           </nav>

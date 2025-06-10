@@ -10,10 +10,10 @@ const CatsSection = () => {
       id: 1,
       name: "Luna",
       age: "2 år",
-      gender: "Hona",
-      description: "Luna är en kärleksfull katt som älskar att kela och mys. Hon är perfekt för en familj som söker en lugn följeslagare.",
+      gender: "Hunn",
+      description: "Luna er en kjærlig katt som elsker å kose og myse. Hun er perfekt for en familie som søker en rolig følgesvenn.",
       image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=400&q=80",
-      location: "Stockholm",
+      location: "Oslo",
       vaccinated: true,
       neutered: true
     },
@@ -21,10 +21,10 @@ const CatsSection = () => {
       id: 2,
       name: "Milo",
       age: "1 år",
-      gender: "Hane",
-      description: "Milo är en lekfull och energisk katt som älskar att utforska. Han skulle trivas bäst i ett hem med trädgård.",
+      gender: "Hann",
+      description: "Milo er en leken og energisk katt som elsker å utforske. Han vil trives best i et hjem med hage.",
       image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=400&q=80",
-      location: "Göteborg",
+      location: "Bergen",
       vaccinated: true,
       neutered: true
     },
@@ -32,10 +32,10 @@ const CatsSection = () => {
       id: 3,
       name: "Bella",
       age: "3 år",
-      gender: "Hona",
-      description: "Bella är en mild och älskvärd katt som passar perfekt för seniorer eller familjer med små barn.",
+      gender: "Hunn",
+      description: "Bella er en mild og elskelig katt som passer perfekt for seniorer eller familier med små barn.",
       image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=400&q=80",
-      location: "Malmö",
+      location: "Trondheim",
       vaccinated: true,
       neutered: true
     }
@@ -46,11 +46,11 @@ const CatsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Möt våra katter som söker hem
+            Møt våre katter som søker hjem
           </h3>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Alla våra katter är hälsokontrollerade, vaccinerade och kasterade. 
-            De väntar på att få träffa sin nya familj.
+            Alle våre katter er helsesjekket, vaksinert og kastrert. 
+            De venter på å møte sin nye familie.
           </p>
         </div>
 
@@ -93,12 +93,12 @@ const CatsSection = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {cat.vaccinated && <Badge variant="secondary" className="bg-green-100 text-green-800">Vaccinerad</Badge>}
-                  {cat.neutered && <Badge variant="secondary" className="bg-blue-100 text-blue-800">Kastrerad</Badge>}
+                  {cat.vaccinated && <Badge variant="secondary" className="bg-green-100 text-green-800">Vaksinert</Badge>}
+                  {cat.neutered && <Badge variant="secondary" className="bg-blue-100 text-blue-800">Kastrert</Badge>}
                 </div>
 
                 <Button className="w-full bg-orange-500 hover:bg-orange-600">
-                  Läs mer om {cat.name}
+                  Les mer om {cat.name}
                 </Button>
               </CardContent>
             </Card>
@@ -107,7 +107,7 @@ const CatsSection = () => {
 
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" className="border-orange-500 text-orange-500 hover:bg-orange-50">
-            Se alla våra katter
+            Se alle våre katter
           </Button>
         </div>
       </div>

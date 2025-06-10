@@ -7,52 +7,52 @@ const HelpSection = () => {
   const helpOptions = [
     {
       icon: Home,
-      title: "Bli fosterfamilj",
-      description: "Ge en katt tillfällig omsorg medan vi söker permanent hem. Du får stöd och hjälp från oss.",
+      title: "Bli fosterfamilie",
+      description: "Gi en katt midlertidig omsorg mens vi søker permanent hjem. Du får støtte og hjelp fra oss.",
       color: "bg-blue-500"
     },
     {
       icon: Users,
-      title: "Volontärarbete",
-      description: "Hjälp till med daglig omsorg, socialisering och administrativt arbete på våra anläggningar.",
+      title: "Frivillig arbeid",
+      description: "Hjelp til med daglig omsorg, sosialisering og administrativt arbeid på våre anlegg.",
       color: "bg-green-500"
     },
     {
       icon: DollarSign,
-      title: "Donera pengar",
-      description: "Din donation hjälper oss att täcka veterinärkostnader, mat och andra nödvändigheter.",
+      title: "Doner penger",
+      description: "Din donasjon hjelper oss å dekke veterinærkostnader, mat og andre nødvendigheter.",
       color: "bg-orange-500"
     },
     {
       icon: HandHeart,
-      title: "Donera förnödenheter",
-      description: "Vi behöver alltid kattmat, kattströ, leksaker, filtar och andra viktiga förnödenheter.",
+      title: "Doner utstyr",
+      description: "Vi trenger alltid kattemat, kattestrø, leker, tepper og andre viktige utstyr.",
       color: "bg-purple-500"
     },
     {
       icon: Truck,
       title: "Transport",
-      description: "Hjälp oss transportera katter till och från veterinären eller till nya hem.",
+      description: "Hjelp oss transportere katter til og fra veterinær eller til nye hjem.",
       color: "bg-indigo-500"
     },
     {
       icon: Heart,
-      title: "Sprid ordet",
-      description: "Dela vårt arbete på sociala medier och berätta för vänner om katter som söker hem.",
+      title: "Spre ordet",
+      description: "Del vårt arbeid på sosiale medier og fortell venner om katter som søker hjem.",
       color: "bg-pink-500"
     }
   ];
 
   return (
-    <section id="hjalp" className="py-20 bg-gray-50">
+    <section id="hjelp" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Hur du kan hjälpa
+            Hvordan du kan hjelpe
           </h3>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Det finns många sätt att stödja vårt arbete. Varje insats, stor som liten, 
-            gör skillnad för katterna som behöver vår hjälp.
+            Det finnes mange måter å støtte vårt arbeid på. Hver innsats, stor som liten, 
+            gjør en forskjell for kattene som trenger vår hjelp.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ const HelpSection = () => {
                   variant="outline" 
                   className="w-full group-hover:bg-orange-500 group-hover:text-white group-hover:border-orange-500 transition-colors duration-300"
                 >
-                  Läs mer
+                  Les mer
                 </Button>
               </CardContent>
             </Card>
@@ -86,18 +86,18 @@ const HelpSection = () => {
         <div className="text-center mt-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
             <h4 className="text-2xl font-bold text-gray-900 mb-4">
-              Vill du göra en akut insats?
+              Vil du gjøre en akutt innsats?
             </h4>
             <p className="text-gray-600 mb-6">
-              Vi behöver alltid akut hjälp med veterinärkostnader och räddningsaktioner. 
-              Din donation går direkt till katter i nöd.
+              Vi trenger alltid akutt hjelp med veterinærkostnader og redningsaksjoner. 
+              Din donasjon går direkte til katter i nød.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-orange-500 hover:bg-orange-600">
-                Donera nu
+                Doner nå
               </Button>
               <Button variant="outline" size="lg" className="border-orange-500 text-orange-500 hover:bg-orange-50">
-                Kontakta oss
+                Kontakt oss
               </Button>
             </div>
           </div>

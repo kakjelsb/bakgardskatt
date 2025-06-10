@@ -8,26 +8,26 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Telefon",
-      content: "08-123 456 789",
-      description: "Vardagar 9-17, helger 10-14"
+      content: "22 12 34 56",
+      description: "Hverdager 9-17, helger 10-14"
     },
     {
       icon: Mail,
       title: "E-post",
-      content: "info@bakgardskatt.se",
-      description: "Vi svarar inom 24 timmar"
+      content: "info@bakgardskatt.no",
+      description: "Vi svarer innen 24 timer"
     },
     {
       icon: MapPin,
-      title: "Besöksadress",
-      content: "Kattgatan 123, Stockholm",
-      description: "Endast efter överenskommelse"
+      title: "Besøksadresse",
+      content: "Kattegata 123, Oslo",
+      description: "Kun etter avtale"
     },
     {
       icon: Clock,
-      title: "Öppettider",
-      content: "Mån-Fre 9-17",
-      description: "Helger efter överenskommelse"
+      title: "Åpningstider",
+      content: "Man-Fre 9-17",
+      description: "Helger etter avtale"
     }
   ];
 
@@ -36,11 +36,11 @@ const ContactSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Kontakta oss
+            Kontakt oss
           </h3>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Har du frågor om adoption, volontärarbete eller vill bara veta mer om vårt arbete? 
-            Vi hjälper gärna till!
+            Har du spørsmål om adopsjon, frivillig arbeid eller vil bare vite mer om vårt arbeid? 
+            Vi hjelper gjerne til!
           </p>
         </div>
 
@@ -74,20 +74,20 @@ const ContactSection = () => {
             <Card className="shadow-lg">
               <CardContent className="p-8">
                 <h4 className="text-2xl font-bold text-gray-900 mb-6">
-                  Skicka oss ett meddelande
+                  Send oss en melding
                 </h4>
                 
                 <form className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                        Namn *
+                        Navn *
                       </label>
                       <input
                         type="text"
                         id="name"
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors"
-                        placeholder="Ditt namn"
+                        placeholder="Ditt navn"
                       />
                     </div>
                     <div>
@@ -98,42 +98,42 @@ const ContactSection = () => {
                         type="email"
                         id="email"
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors"
-                        placeholder="din@email.se"
+                        placeholder="din@email.no"
                       />
                     </div>
                   </div>
                   
                   <div>
                     <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                      Ämne
+                      Emne
                     </label>
                     <select
                       id="subject"
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors"
                     >
-                      <option value="">Välj ämne</option>
-                      <option value="adoption">Adoption</option>
-                      <option value="volunteer">Volontärarbete</option>
-                      <option value="foster">Fosterfamilj</option>
-                      <option value="donation">Donation</option>
-                      <option value="other">Övrigt</option>
+                      <option value="">Velg emne</option>
+                      <option value="adoption">Adopsjon</option>
+                      <option value="volunteer">Frivillig arbeid</option>
+                      <option value="foster">Fosterfamilie</option>
+                      <option value="donation">Donasjon</option>
+                      <option value="other">Annet</option>
                     </select>
                   </div>
                   
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      Meddelande *
+                      Melding *
                     </label>
                     <textarea
                       id="message"
                       rows={5}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-colors"
-                      placeholder="Berätta hur vi kan hjälpa dig..."
+                      placeholder="Fortell hvordan vi kan hjelpe deg..."
                     ></textarea>
                   </div>
                   
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 py-3 text-lg">
-                    Skicka meddelande
+                    Send melding
                   </Button>
                 </form>
               </CardContent>
@@ -144,13 +144,13 @@ const ContactSection = () => {
             <Card className="shadow-lg">
               <CardContent className="p-6">
                 <h4 className="text-xl font-bold text-gray-900 mb-4">
-                  Akut hjälp behövs
+                  Akutt hjelp trengs
                 </h4>
                 <p className="text-gray-600 mb-6">
-                  Har du hittat en katt som behöver hjälp? Kontakta oss omedelbart.
+                  Har du funnet en katt som trenger hjelp? Kontakt oss umiddelbart.
                 </p>
                 <Button className="w-full bg-red-500 hover:bg-red-600">
-                  Ring akuttelefon
+                  Ring akutttelefon
                 </Button>
               </CardContent>
             </Card>
@@ -158,10 +158,10 @@ const ContactSection = () => {
             <Card className="shadow-lg">
               <CardContent className="p-6">
                 <h4 className="text-xl font-bold text-gray-900 mb-4">
-                  Följ oss
+                  Følg oss
                 </h4>
                 <p className="text-gray-600 mb-6">
-                  Håll dig uppdaterad med vårt arbete och se bilder på katter som söker hem.
+                  Hold deg oppdatert med vårt arbeid og se bilder av katter som søker hjem.
                 </p>
                 <div className="flex space-x-4">
                   <Button variant="outline" size="icon" className="border-blue-500 text-blue-500 hover:bg-blue-50">
@@ -177,13 +177,13 @@ const ContactSection = () => {
             <Card className="shadow-lg bg-gradient-to-br from-orange-50 to-blue-50">
               <CardContent className="p-6">
                 <h4 className="text-xl font-bold text-gray-900 mb-4">
-                  Donera idag
+                  Doner i dag
                 </h4>
                 <p className="text-gray-600 mb-6">
-                  Din donation hjälper oss att rädda fler katter och ge dem den vård de behöver.
+                  Din donasjon hjelper oss å redde flere katter og gi dem den omsorgen de trenger.
                 </p>
                 <Button className="w-full bg-orange-500 hover:bg-orange-600">
-                  Donera nu
+                  Doner nå
                 </Button>
               </CardContent>
             </Card>
