@@ -34,20 +34,6 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="flex items-center space-x-8 pt-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">127</div>
-                <div className="text-sm text-gray-600">Katter omPlassert</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-500">23</div>
-                <div className="text-sm text-gray-600">Aktive frivillige</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-green-500">5</div>
-                <div className="text-sm text-gray-600">År med omsorg</div>
-              </div>
-            </div>
           </div>
 
           <div className="relative">

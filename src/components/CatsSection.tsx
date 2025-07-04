@@ -63,11 +63,6 @@ const CatsSection = () => {
                   alt={`${cat.name} - ${cat.description}`}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-4 right-4">
-                  <Button size="icon" variant="secondary" className="bg-white/90 hover:bg-white">
-                    <Heart className="h-4 w-4 text-red-500" />
-                  </Button>
-                </div>
               </div>
               
               <CardContent className="p-6">

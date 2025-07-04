@@ -12,9 +12,9 @@ const HelpSection = () => {
       color: "bg-blue-500"
     },
     {
-      icon: Users,
-      title: "Frivillig arbeid",
-      description: "Hjelp til med daglig omsorg, sosialisering og administrativt arbeid på våre anlegg.",
+      icon: Heart,
+      title: "Adopter en katt",
+      description: "Gi en katt et permanent, kjærlig hjem. Vi hjelper deg finne den perfekte katten for din familie.",
       color: "bg-green-500"
     },
     {
@@ -28,12 +28,6 @@ const HelpSection = () => {
       title: "Doner utstyr",
       description: "Vi trenger alltid kattemat, kattestrø, leker, tepper og andre viktige utstyr.",
       color: "bg-purple-500"
-    },
-    {
-      icon: Truck,
-      title: "Transport",
-      description: "Hjelp oss transportere katter til og fra veterinær eller til nye hjem.",
-      color: "bg-indigo-500"
     },
     {
       icon: Heart,

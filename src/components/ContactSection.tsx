@@ -17,18 +17,6 @@ const ContactSection = () => {
       content: "info@bakgardskatt.no",
       description: "Vi svarer innen 24 timer"
     },
-    {
-      icon: MapPin,
-      title: "Besøksadresse",
-      content: "Kattegata 123, Oslo",
-      description: "Kun etter avtale"
-    },
-    {
-      icon: Clock,
-      title: "Åpningstider",
-      content: "Man-Fre 9-17",
-      description: "Helger etter avtale"
-    }
   ];
 
   return (
